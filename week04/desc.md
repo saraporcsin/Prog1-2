@@ -7,7 +7,7 @@
 
 ### Előadás Extra
 
-* Készítsük el: *PPP. Chapter 13 Exercises 1, 11-14.*
+* Készítsük el: *PPP. Chapter 14 Exercises 1, 11-14.*
 * Dolgozzuk fel: *Mandelbrot nagyító (Qt)*
 
 **Határidő: 2021. 03. 15. 00:01**
