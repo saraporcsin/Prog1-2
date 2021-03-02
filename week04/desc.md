@@ -16,6 +16,6 @@
 
 [Mandelbrot nagyító](./mandel.md)
 
-<!--## [Keddi csoport source](../etc/week03/kedd.cpp)  -->
+## [Keddi csoport source](../etc/week04/kedd.cpp)
 
 <!-- ## [Szerdai csoport source](../etc/week03/szerda.cpp) -->
