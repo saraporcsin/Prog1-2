@@ -7,10 +7,9 @@
 class BinaryTree : public Shape {
 public:
     BinaryTree(Point root, int levels = 1, int sparse_x = 35,
-               int sparse_y = 100, int radius = 12,
-               Line_style line_style = Line_style::solid)
+               int sparse_y = 100, int radius = 12)
       : m_levels(levels), m_sparse_x(sparse_x), m_sparse_y(sparse_y),
-        m_radius(radius), m_line_style(line_style) {
+        m_radius(radius) {
 
         for (int i = 0; i < m_levels; ++i) {
             for (int j = 0; j < static_cast<int>(pow(2, i)); ++j) {
@@ -23,6 +22,7 @@ public:
             }
         }
         set_fill_color(Color::black);
+        set_style(Line_style::solid);
     }
     ~BinaryTree(){};
 
@@ -63,19 +63,11 @@ public:
         m_radius = radius;
     }
 
-    Line_style line_style() const {
-        return m_line_style;
-    }
-
-    void set_line_style(Line_style line_style) {
-        m_line_style = line_style;
-    }
-
 private:
     void draw_edges() const {
         if (color().visibility()) {
             fl_color(color().as_int());
-            fl_line_style(m_line_style.style(), m_line_style.width());
+            fl_line_style(style().style(), style().width());
 
             for (int i = 0; i < number_of_points() / 2; ++i) {
                 fl_line(point(i).x, point(i).y, point(2 * i + 1).x,
@@ -106,13 +98,10 @@ private:
     }
 
 private:
-    int                m_levels;
-    int                m_sparse_x;
-    int                m_sparse_y;
-    int                m_radius;
-    Line_style         m_line_style;
-    Vector_ref<Line>   m_edges;
-    Vector_ref<Circle> m_circles;
+    int m_levels;
+    int m_sparse_x;
+    int m_sparse_y;
+    int m_radius;
 };
 
 class BinaryTree_Triangle : public BinaryTree {
@@ -146,11 +135,11 @@ int main(int argc, char **argv) {
     Simple_window win{{0, 0}, 1920, 1080, "pain"};
 
     BinaryTree_Triangle c({300, 300}, level);
-    c.set_line_style(Line_style::dot);
-    Mark m1{{300, 300}, '.'};
+    Mark                m1{{300, 300}, '.'};
 
     win.attach(c);
     win.attach(m1);
+    c.set_style(Line_style::dot);
 
     win.wait_for_button();
 }

@@ -18,4 +18,4 @@
 
 ## [Keddi csoport source](../etc/week04/kedd.cpp)
 
-<!-- ## [Szerdai csoport source](../etc/week03/szerda.cpp) -->
+## [Szerdai csoport source](../etc/week04/szerda.cpp)

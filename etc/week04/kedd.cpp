@@ -1,6 +1,15 @@
 #include <iostream>
 #include <vector>
 
+// class Class {
+// public:
+//     int  get_i() const {}
+//     void set_i();
+//
+// private:
+//     int m_i{0};
+// };
+
 class Base {
 public:
     void function() {
