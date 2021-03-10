@@ -16,6 +16,6 @@
 
 <!-- ## Összefoglalók -->
 
-<!-- ## [Keddi csoport source](../etc/week04/kedd.cpp) -->
+## [Keddi csoport source](../etc/week05/kedd_drillek.cpp)
 
-<!-- ## [Szerdai csoport source](../etc/week04/szerda.cpp) -->
+## [Szerdai csoport source](../etc/week05/szerda_drill.cpp)
