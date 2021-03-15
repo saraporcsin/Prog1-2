@@ -4,7 +4,7 @@
 #include <png++/png.hpp>
 #include <png++/rgb_pixel.hpp>
 
-int main(int argc, char **argv) {
+int main(int argc, char** argv) {
 
     if (argc != 2) {
         std::cerr << "Usage: ./mandelpng output_filename\n";
