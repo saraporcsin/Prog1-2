@@ -13,6 +13,6 @@
 **Határidő: 2021. 03. 29. 00:01**
 
 <!-- ## Összefoglalók -->
-<!-- ## [Keddi csoport source](../etc/week05/kedd_drillek.cpp)
+## [Keddi csoport source](../etc/week06/kedd/)
 
-## [Szerdai csoport source](../etc/week05/szerda_drill.cpp) -->
+<!-- ## [Szerdai csoport source](../etc/week05/szerda_drill.cpp) -->
