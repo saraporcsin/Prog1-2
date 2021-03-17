@@ -15,4 +15,4 @@
 <!-- ## Összefoglalók -->
 ## [Keddi csoport source](../etc/week06/kedd/)
 
-<!-- ## [Szerdai csoport source](../etc/week05/szerda_drill.cpp) -->
+## [Szerdai csoport source](../etc/week06/szerda/)
