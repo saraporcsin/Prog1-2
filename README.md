@@ -19,3 +19,5 @@
 ### [Week05](./week05/desc.md)
 
 ### [Week06](./week06/desc.md)
+
+### [Week07](./week07/desc.md)
