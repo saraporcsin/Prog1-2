@@ -48,7 +48,7 @@ public:
     }
     void push_front(const_reference_type data) {
         if (m_head == nullptr) {
-            m_head = new Node<value_type>(data, m_head, nullptr);
+            m_head = new Node<value_type>(data, nullptr, nullptr);
         } else {
             Node<value_type>* tmp = new Node<value_type>(data, m_head, nullptr);
             m_head->m_prev        = tmp;

@@ -14,6 +14,6 @@
 **Határidő: 2021. 04. 05. 00:01**
 
 <!-- ## Összefoglalók -->
-<!-- ## [Keddi csoport source](../etc/week06/kedd/)
+## [Keddi csoport source](../etc/week07/kedd/)
 
-## [Szerdai csoport source](../etc/week06/szerda/) -->
+## [Szerdai csoport source](../etc/week07/szerda/)
